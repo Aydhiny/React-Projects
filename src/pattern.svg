@@ -1,12 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="300px" width="300px">
-  <defs>
-    <pattern id="doodad" width="40" height="40" viewBox="0 0 40 40" patternUnits="userSpaceOnUse" patternTransform="rotate(135)">
-      <rect width="100%" height="100%" fill="rgba(37, 37, 101,1)"/>
-      <path d="M-20 11l20-20l20 20l20-20l20 20l20-20l20 20v-2l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20-29l20-20l20 20l20-20l20 20l20-20l20 20v-2l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20 51l20-20l20 20l20-20l20 20l20-20l20 20v-2l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20z " fill="rgba(15, 15, 15,0.35)"/>
-      <path d="M-20 30.5l20-20l20 20l20-20l20 20l20-20l20 20v-1l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20-9.5l20-20l20 20l20-20l20 20l20-20l20 20v-1l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20 70.5l20-20l20 20l20-20l20 20l20-20l20 20v-1l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20z " fill="rgba(82, 52, 157,1)"/>
-      <path d="M-20 31l20-20l20 20l20-20l20 20l20-20l20 20v-2l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20-9l20-20l20 20l20-20l20 20l20-20l20 20v-2l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20 71l20-20l20 20l20-20l20 20l20-20l20 20v-2l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20z " fill="rgba(15, 15, 15,0.35)"/>
-    </pattern>
-  </defs>
-  <rect fill="url(#doodad)" height="200%" width="200%"/>
-</svg>
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 1600 800'><rect fill='#4D028A' width='1600' height='800'/><g stroke='#A402FF' stroke-width='66.7' stroke-opacity='0.3' ><circle  fill='#4D028A' cx='0' cy='0' r='1800'/><circle  fill='#4a0285' cx='0' cy='0' r='1700'/><circle  fill='#470380' cx='0' cy='0' r='1600'/><circle  fill='#44037b' cx='0' cy='0' r='1500'/><circle  fill='#410377' cx='0' cy='0' r='1400'/><circle  fill='#3e0372' cx='0' cy='0' r='1300'/><circle  fill='#3b036d' cx='0' cy='0' r='1200'/><circle  fill='#380368' cx='0' cy='0' r='1100'/><circle  fill='#350364' cx='0' cy='0' r='1000'/><circle  fill='#32035f' cx='0' cy='0' r='900'/><circle  fill='#2f035a' cx='0' cy='0' r='800'/><circle  fill='#2c0356' cx='0' cy='0' r='700'/><circle  fill='#290351' cx='0' cy='0' r='600'/><circle  fill='#27034d' cx='0' cy='0' r='500'/><circle  fill='#240348' cx='0' cy='0' r='400'/><circle  fill='#210244' cx='0' cy='0' r='300'/><circle  fill='#1f013f' cx='0' cy='0' r='200'/><circle  fill='#1D003B' cx='0' cy='0' r='100'/></g></svg>
