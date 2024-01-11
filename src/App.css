@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+body{
+    background: #2a282d;
+}
+nav {
+    background-color: #10101098;
+    color: white;
+}* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+body{
+    background-color: #28104E;
+    background: url('./pattern.svg');
+}
+nav {
+    background-color: #10101026;
+    color: white;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 10%;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 15px;
+    transition: color 0.3s ease;
+    /* Add transition for color change */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover effect for nav-links */
+.nav-links li:hover {
+    color: #f8b400;
+    /* Change to your desired hover color */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 10%;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 15px;
+    transition: color 0.3s ease;
+    /* Add transition for color change */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover effect for nav-links */
+.nav-links li:hover {
+    color: #f8b400;
+    /* Change to your desired hover color */
+}
