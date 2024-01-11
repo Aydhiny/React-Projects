@@ -8,7 +8,7 @@ body{
     background: #2a282d;
 }
 nav {
-    background-color: #10101098;
+    background-color: #f10000;
     color: white;
 }* {
     box-sizing: border-box;
@@ -69,7 +69,6 @@ nav {
 .logo img {
     width: 10%;
     height: auto;
-    font-size: 5;
 }
 
 .nav-links {
