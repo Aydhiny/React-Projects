@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Icons from './siteParts/icons';
 import './App.css';
 import profilepic from './profile.jpg';
 import plansio from './plansiologo.png';
@@ -24,6 +25,7 @@ function App() {
           <button className='downloadBtn'>Download CV</button>
           <button className='beatBtn'>Beatstore</button>
         </div>
+        <Icons /> {/* Include the Icons component here */}
     </div>
   );
 }
