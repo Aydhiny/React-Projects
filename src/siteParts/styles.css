@@ -5,6 +5,15 @@
     z-index: 1000;
 }
 
+@media (max-width: 1024px) {
+    .icons-container {
+        top: 20px;
+        /* Position the container at the top of the page */
+        bottom: auto;
+        /* Remove the bottom positioning */
+    }
+}
+
 .icons-container a {
     margin-right: 10px;
     color: #b099d2f1;
