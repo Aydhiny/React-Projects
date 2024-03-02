@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
 .about-page {
     margin: 100px;
     margin-top: 50%;
@@ -7,23 +13,31 @@
 
 .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card {
-    background-color: #b099d2;
+    background-color: #36303a;
+    box-shadow: rgba(60, 38, 77, 0.5) 0px 20px 30px -10px;
+    text-align: center;
+    align-items: center;
     /* Card background color */
-    width: 200px;
+    width: 250px;
+    height: auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     /* Transition for hover effect */
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) rotate(5deg);
     /* Grow on hover */
+}
+
+.card img {
+    width: 150px;
+    height: auto;
 }
 
 .info {
