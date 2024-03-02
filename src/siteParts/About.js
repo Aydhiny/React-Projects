@@ -3,20 +3,22 @@ import './about.css';
 import image1 from './image1.png'; // Import your image files
 import image2 from './image2.png';
 import image3 from './image3.jpg';
+import image4 from './image4.png';
 
 const About = () => {
   return (
     <div className="about-page">
-      <h1>Projects</h1>
+      <h1 className='header-box'>Projects</h1>
+      <p>Projects I've created over the past 6+ years of active work.</p>
       <div className="card-container">
         <div className="card">
-          <img src={image1} alt="Image 1" /> {/* Image 1 */}
-          <h2>Hunter Mouse</h2>
-          <p>A 3d platformer game created entirely from scratch in Unity.</p>
+          <img className='ayBeats' src={image1} alt="Image 1" /> {/* Image 1 */}
+          <h2>Aydhiny Beats</h2>
+          <p>Music Producer for 6 years. GFX, Loops, Music Style, Design, Mixing/Mastering</p>
         </div>
                 <div className="card">
-          <img src={image1} alt="Image 1" /> {/* Image 1 */}
-          <h2>Aydhiny Beats</h2>
+          <img src={image4} alt="Image 1" /> {/* Image 1 */}
+          <h2>Hunter Mouse</h2>
           <p>A 3d platformer game created entirely from scratch in Unity.</p>
         </div>
         <div className="card">

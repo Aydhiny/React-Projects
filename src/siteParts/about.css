@@ -6,41 +6,68 @@
 }
 .about-page {
     margin-top: 50%;
+    text-align: center;
     padding: 100px;
     color: white;
+}
+.header-box{
+    border: white solid;
+    margin-bottom: 10px;
+    box-shadow: rgba(23, 15, 30, 0.63) 0px 20px 30px -10px;
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .card {
-    background-color: #36303a;
-    box-shadow: rgba(60, 38, 77, 0.5) 0px 20px 30px -10px;
-    text-align: center;
+    background-color: #36303ac7;
+    box-shadow: rgba(23, 15, 30, 0.63) 0px 20px 30px -10px;
     align-items: center;
+    text-align: center;
     /* Card background color */
     width: 250px;
     height: auto;
     padding: 10px;
-    margin: 20px;
+    margin-top: 15px;
     border-radius: 10px;
     transition: transform 0.3s ease;
     /* Transition for hover effect */
+}
+.card h2{
+    color:#b980fe;
 }
 
 .card:hover {
     transform: scale(1.05) rotate(5deg);
     /* Grow on hover */
 }
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.ayBeats {
+    width: 5px;
+    height: auto;
+}
 
 .card img {
     width: 150px;
     height: auto;
+    animation: pulse 2s infinite alternate;
 }
-
 .info {
     margin-top: 20px;
     text-align: center;
@@ -107,4 +134,56 @@ button:hover {
         margin-top: 350%;
         /* Adjust the margin-top for better spacing */
     }
+}
+
+/* ABOUT MEEEEEEEEEEEE */ 
+
+.about-2{
+    color: white;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.header-box-2{
+    border: white solid;
+    margin-bottom: 10px;
+    box-shadow: rgba(23, 15, 30, 0.63) 0px 20px 30px -10px;
+    padding: 15px;
+}
+.header-text{
+    display: flex;
+    text-align: left;
+}
+.header-text p {
+    padding-left: 15px;
+    font-size: 23px;
+}
+.ajdinImg {
+    border: white solid 2px;
+    box-shadow: rgba(23, 15, 30, 0.63) 0px 20px 30px -10px;
+    width: 300px;
+    height: 300px;
+    rotate: 2deg;
+    transition: transform 0.3s ease;
+}
+
+.ajdinImg:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.about-me-text {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    /* Default text color */
+}
+
+.bold {
+    font-weight: bold;
+    color: #b980fe;
+}
+
+.about-me-text p {
+    line-height: 1.5;
 }
