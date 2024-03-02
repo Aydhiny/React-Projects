@@ -5,9 +5,8 @@
     font-family: 'Poppins';
 }
 .about-page {
-    margin: 100px;
     margin-top: 50%;
-    padding: 20px;
+    padding: 100px;
     color: white;
 }
 
@@ -25,7 +24,7 @@
     /* Card background color */
     width: 250px;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -66,7 +65,7 @@ button:hover {
 @media (max-width: 1024px) {
     .about-page {
         margin: 20px;
-        margin-top: 200%;
+        margin-top: 170%;
         /* Adjust the margin-top for better spacing */
     }
 
@@ -84,11 +83,28 @@ button:hover {
 }
 
 @media (max-width: 800px) {
-    .card img {
-        width: 70px;
-        height: auto;
-    }
-    .card{
-        font-size: 10px;
+        .card {
+            width: calc(100% - 40px);
+            /* Set card width to occupy 100% of available width */
+            margin: 10px;
+        }
+        .about-page {
+            padding: 5px;
+            color: white;
+        }
+}
+
+@media (max-width: 670px) {
+    .about-page {
+            margin: 20px;
+            margin-top: 250%;
+            /* Adjust the margin-top for better spacing */
+        }
+}
+@media (max-width: 450px) {
+    .about-page {
+        margin: 20px;
+        margin-top: 350%;
+        /* Adjust the margin-top for better spacing */
     }
 }
