@@ -1,10 +1,16 @@
+@font-face {
+    font-family: 'Kastelov Axiforma Medium';
+    src: url('../fonts/Kastelov\ \ Axiforma\ Medium.otf') format('opentype');
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins';
+    font-family: 'Poppins',
+        sans-serif;
 }
 .ball {
     width: 50px;
