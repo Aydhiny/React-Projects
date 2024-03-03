@@ -104,7 +104,7 @@
 
     /* Adjust font size for smaller screens */
     .e-header {
-        font-size: 18px;
+        font-size: 19px;
     }
 
     /* Make icons smaller on smaller screens */
@@ -128,6 +128,68 @@
     /* Adjust margin for competition info */
     .competition-info {
         margin-left: 15px;
+    }
+
+    /* Responsive styles for header-text-education */
+    .header-text-education {
+        border: white solid 5px;
+        text-align: center;
+        color: white;
+        margin-bottom: 10px;
+        padding: 0px;
+        background-color: #222222;
+        box-shadow: rgba(23, 15, 30, 0.63) 0px 20px 30px -10px;
+    }
+
+    /* Responsive styles for header-text-2 */
+    .header-text-2 {
+        border: white solid 5px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 10px;
+        background-color: #222222;
+        box-shadow: rgba(23, 15, 30, 0.63) 0px 20px 30px -10px;
+    }
+}
+@media screen and (max-width: 460px) {
+
+    /* Adjust font size for smaller screens */
+    .e-header {
+        font-size: 16px;
+    }
+
+    /* Make icons smaller on smaller screens */
+    .icon {
+        height: 60px;
+        margin: 10px;
+    }
+
+    /* Adjust margin for competitions */
+    .competition {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Adjust margin for company logo */
+    .company-logo {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    /* Adjust margin for competition info */
+    .competition-info {
+        margin-left: 10px;
+    }
+
+    /* Adjust header styles for smaller screens */
+    .header-text-education,
+    .header-text-2 {
+        margin: 5px;
+        padding: 5px;
     }
 }
 
