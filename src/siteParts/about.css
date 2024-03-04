@@ -74,6 +74,9 @@
     margin-top: 20px;
     text-align: center;
 }
+.info-text{
+    font-size: 28px;
+}
 
 button {
     padding: 10px 20px;

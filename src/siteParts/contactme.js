@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import './ContactMe.css'; // Import your CSS file for styling
 
 const ContactMe = () => {
@@ -18,19 +19,28 @@ const ContactMe = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can implement the functionality to send the form data to your email here
-    console.log(formData);
-    // For simplicity, we'll just clear the form data
-    setFormData({
-      name: '',
-      email: '',
-      message: ''
-    });
+    
+    emailjs.sendForm('service_3nx1wx1', 'template_monzlwu', e.target, 'RUMbovYBY930M2tFS')
+      .then((result) => {
+        console.log(result.text);
+        // Clear the form data after successful submission
+        setFormData({
+          name: '',
+          email: '',
+          message: ''
+        });
+        // Show alert for successful submission
+        alert('Message sent successfully!');
+      }, (error) => {
+        console.error(error.text);
+        // Show alert for error
+        alert('Error sending message. Please try again later.');
+      });
   };
 
   return (
     <div className="contact-container">
-      <h1>Contact Me</h1>
+      <h1 className='contact-header-text'>Contact Me</h1>
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
           <label htmlFor="name">Name:</label>
@@ -66,6 +76,10 @@ const ContactMe = () => {
         </div>
         <button className='contact-button' type="submit">Submit</button>
       </form>
+      {/* Footer */}
+      <footer className="footer">
+        <p>© Copyright Aydhiny, Plansio, Ajdin Mehmedović 2024</p>
+      </footer>
     </div>
   );
 };

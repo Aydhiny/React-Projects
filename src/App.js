@@ -13,10 +13,16 @@ function App() {
   return (
     <div className='app-container'>
       <Home /> {/* Render the Home component */}
-      <About /> {/* Render the About component */}
+      <About/> {/* Render the About component */}
+  {/* About section content */}
       <Education/>
+      <div id="about">
       <AboutMe />
-      <ContactMe/>
+</div>
+      <div id="contact">
+      <ContactMe id="contact"/>
+  {/* Contact section content */}
+</div>
       <Icons />
     </div>
   );

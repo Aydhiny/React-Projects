@@ -32,7 +32,7 @@ const Home = () => {
               <img className='ayden-img' src={aydhiny} alt='profile-pic' />
             </a>
             <WelcomeText />
-            <p>Music Producer 🎵, Designer ✒️, Software Engineering Student 💻</p>
+            <p>Music Producer 🎵 Designer ✒️ Software Engineering Student 💻</p>
             <p className='myName'>Ajdin Mehmedović</p>
             <button className='downloadBtn' onClick={handleDownloadCV}>Download CV</button>
             <button className='beatBtn' onClick={handleRedirectBeatstore}>Beatstore</button>

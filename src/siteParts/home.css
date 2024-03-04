@@ -3,6 +3,19 @@
     src: url('../fonts/Kastelov\ \ Axiforma\ Medium.otf') format('opentype');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* Optional: You can adjust the scroll transition duration */
+/* Increase the duration for a slower scroll */
+/* Decrease the duration for a faster scroll */
+body,
+html {
+    transition-duration: 60s;
+    /* Adjust as needed */
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
 * {
