@@ -13,9 +13,11 @@ const Navbar = () => {
       <div className="navbar-container">
         <p className='ajdinText'>AJDIN MEHMEDOVIĆ</p>
         <ul className="nav-links">
-          <li className='homeLink'><a href="#">HOME</a></li>
-          <li><a href="#" onClick={() => scrollToSection('about')}>ABOUT</a></li>
-          <li><a href="#" onClick={() => scrollToSection('contact')}>CONTACT</a></li>
+          <li className='homeLink'><a href="#">HOME</a> {/* eslint-disable-line jsx-a11y/anchor-is-valid */}</li>
+          <li><a className='BlogLink' href="#">BLOG</a> {/* eslint-disable-line jsx-a11y/anchor-is-valid */}</li>
+          <li><a href="#" onClick={() => scrollToSection('projects')}>PROJECTS</a> {/* eslint-disable-line jsx-a11y/anchor-is-valid */}</li>
+          <li><a href="#" onClick={() => scrollToSection('about')}>ABOUT</a> {/* eslint-disable-line jsx-a11y/anchor-is-valid */}</li>
+          <li><a href="#" onClick={() => scrollToSection('contact')}>CONTACT</a> {/* eslint-disable-line jsx-a11y/anchor-is-valid */}</li>
         </ul>
       </div>
     </nav>

@@ -25,17 +25,6 @@ html {
     font-family: 'Poppins',
         sans-serif;
 }
-.ball {
-    width: 50px;
-    height: 50px;
-    background-color: #7700ff;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: transform 0.1s;
-}
 
 body {
     background-color: #212121;
@@ -76,22 +65,42 @@ nav {
     margin-right: 35px;
     transition: color 0.3s ease;
 }
-
 .nav-links a {
     text-decoration: none;
-    text-align: right;
     color: white;
+    text-align: right;
 }
-
-/* Hover effect for nav-links */
-.nav-links li:hover {
-    color: #f8b400;
-    /* Change to your desired hover color */
-}
-
 .homeLink a {
     color: #7700ff;
     position: relative;
+}
+@keyframes pulseEffect {
+    0% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(0, 255, 234), 0 0 40px rgb(0, 255, 234), 0 0 50px rgb(0, 255, 234), 0 0 70px rgb(0, 255, 234), 0 0 90px #ff0;
+    }
+
+    100% {
+        text-shadow: 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #00ffea, 0 0 80px #00ffea, 0 0 100px #00ffea, 0 0 120px #00ffea, 0 0 140px #00ffea;
+    }
+}
+
+/* Apply pulse animation to .BlogLink */
+.nav-links li .BlogLink {
+    color: #212121;
+    background-color: #e2e2e2;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px 15px;
+    transition: .3s;
+    animation: pulseEffect 1.5s ease-in-out infinite alternate;
+}
+
+/* Hover effect for .BlogLink */
+.nav-links li .BlogLink:hover {
+    color: #e2e2e2;
+    background-color: #212121;
+    /* Change to your desired hover color */
+    /* Add underline on hover */
 }
 
 .homeLink a::after {
@@ -129,26 +138,6 @@ nav {
     100% {
         transform: rotate(0deg);
     }
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links li {
-    transition: color 0.3s ease;
-    /* Add transition for color change */
-}
-
-.nav-links a {
-    text-decoration: none;
-}
-
-/* Hover effect for nav-links */
-.nav-links li:hover {
-    color: #f8b400;
-    /* Change to your desired hover color */
 }
 
 .wrldText {
